@@ -1,0 +1,35 @@
+.btn-outline-color {
+  border-color: #7289DA;
+  color: black;
+}
+
+body {
+  background-color: #f7f7f7
+}
+
+.btn-outline-color:hover{
+  background-color: #7289DA;
+  color: white;
+}
+
+.color-form{
+  background-color: #7289DA;
+}
+
+.background-color-card{
+  background-color: #fafafa;
+}
+
+.button-grandezza{
+  width:100%;
+}  
+
+.navbar-icon-color {
+  background-color:#ffffff;
+  transition: 0.15s;
+}
+
+.navbar-icon-color:hover {
+  background-color: #7289DA;
+  border-color: #7289DA;
+}

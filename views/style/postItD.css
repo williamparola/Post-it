@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+.topBar{
+  margin-top: 70px;
+  position:relative;
+  width:200px;
+  height:40px;
+  background-color:#0189b7;
+  color:white;
+  font-size:24;
+  padding-left:5px;
+}
+
+.form{
+ position:relative;
+  width:200px;
+  height:160px;
+  background-color:#02a0d4;  /*   8900f2   2d00f7  6a00f4 */
+  
+}
+
+.textAria{
+  border-color:red;
+  word-wrap: break-word;
+  color: white;
+  width:180px;
+  height:140px;
+  position:relative;
+  font-family: 'Lato', sans-serif;
+  overflow:hide;
+
+}
+.textAria:focus{
+  outline: 0;
+}
+
+/* 495057 - 20bf55 sopra */ 
+/*Background:  495057(grigio) - 202020(nero) - 000000(molto nero) - 242f40(blu scuro)*/
+/*NERI/GRIGI:  131515 - 2b2c28 - 38302e - 040404 - 14110f - 0c120c - 212529*/
+/* SCURI: 22223b*/
+/*testa post it: 660708 - a4161a - ba181b*/
+/*corpo post it: e5383b -*/

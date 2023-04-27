@@ -1,0 +1,43 @@
+body{
+  background-color:#1e2124;
+  overflow:hidden;
+}
+
+.offcanvas-dark {
+  background-color: #424549;
+  color: white;
+}
+
+.btn-outline-color {
+  border-color: #7289DA;
+  color: white;
+}
+
+.btn-outline-color:hover{
+  background-color: #7289DA;
+  color: white;
+}
+
+.color-form{
+  background-color: #7289DA;
+}
+
+.card-dark{
+  background-color: #424549;
+  color: white;
+} 
+
+.navbar-icon-color {
+  background-color:#424549;
+  border-color: #424549;
+  transition: 0.15s;
+}
+
+.navbar-icon-color:hover {
+  background-color: #7289DA;
+  border-color: #7289DA;
+}
+
+.button-grandezza{
+  width:100%;
+}

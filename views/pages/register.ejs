@@ -1,0 +1,34 @@
+<%- include("../partials/headerNoNavbar.ejs") %>
+  <div class="container text-center" style="height:100vh">
+    <div class="row align-items-center h-100">
+      <div class = "col">
+      </div>
+ 
+      <div class="col">
+        <div class="card">
+          <div class="card-dark card-body">
+            <form action="/inputRegister" method="post">
+              <div class="mb-3">
+                <label for="exampleUsername" class="form-label">Nome utente</label>
+                <input type="text" class="form-control" name="utente" aria-                          describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Memorizzeremo i tuoi dati su un file JSON senza crittature.</div>
+              </div>
+              <br>
+              <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" name="password">
+      </div>
+              
+              <a href="/login"> Hai un account? Loggati</a> <br><br>
+              
+        <button type="submit" class="btn btn-outline-color">Submit</button>
+            </form> 
+          </div>
+        </div>
+      </div>
+      
+      <div class = "col">
+      </div>
+    </div>
+  </div>
+<%- include("../partials/footer.ejs") %>

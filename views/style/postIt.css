@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+.topBar{
+  /*z-index:0;  
+  Indica la profondità di un div o qualcosa relativo al numero
+  
+  figo ma non ora*/
+  margin-top: 70px;
+  position:relative;
+  width:200px;
+  height:40px;
+  background-color:#3a9c52;  /*1a7431*/
+  font-size:24;
+  padding-left:5px;
+}
+
+.form{
+  position:relative;
+  width:200px;
+  height:160px;
+  background-color:#2dc653; /* 2dc653 */
+
+}
+
+.textAria{
+  position:relative;
+  border-color:#4b0101;
+  color: black;
+  width:180px;
+  height:140px;
+  position:relative;
+  font-family: 'Lato', sans-serif;
+  overflow:hide;
+  word-wrap: break-word;
+}
+.textAria:focus{
+  outline: 0;
+}
+
+
+/**/
+
+.topBarM{
+  /*z-index:0;  figo ma non ora*/
+  margin-top: 70px;
+  position:relative;
+  width:200px;
+  height:40px;
+  background-color:#ff9500;  /*1a7431*/
+}
+
+.formM{
+  position:relative;
+  width:200px;
+  height:160px;
+  background-color:#ffd500; /* 2dc653 */
+
+}
+
+.textAriaM{
+  position:relative;
+  border-color:#4b0101;
+  color: black;
+  width:180px;
+  height:140px;
+  position:relative;
+  font-family: 'Lato', sans-serif;
+  overflow:hide;
+}
+.textAriaM:focus{
+  outline: 0;
+}

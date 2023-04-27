@@ -1,0 +1,41 @@
+<%- include("../partials/header.ejs") %>
+  
+<link href="<% if(isDarkMode) {%>
+      ../style/postItD.css"
+    <%} else {%>
+      ../style/postIt.css"
+    <%}%> rel="stylesheet">
+ <!-- <script src="../script/postIt.js"></script> -->
+  
+  <% //Data contiene i post
+    //Formato da righe e coloone
+    %>
+    
+  <div class="container">
+    <%
+      var i = 0;
+      data.forEach(function(dato) {
+        if(i == 0) {%>
+          <div class="row align-items-center">
+        <%}%>
+          <div class="col">  
+            <div id="postIt">
+              <div class=topBar> <%= dato.utente%></div>
+                <div class=form>
+                  <div class=textAria>
+                    <%=dato.testo%>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <%i++;
+          if(i == 5) {%>
+        </div>
+          <%i=0
+          }})
+            if(i != 0) {%>
+            </div>
+            <%}
+          %>
+    </div>
+<%- include("../partials/footer.ejs") %>
